@@ -1,0 +1,196 @@
+
+Enter number of vertices : 6
+Enter number of edges : 10
+*****************************
+Enter vertice number 1 : A
+Enter vertice number 2 : B
+Enter vertice number 3 : C
+Enter vertice number 4 : D
+Enter vertice number 5 : E
+Enter vertice number 6 : F
+*****************************
+Enter source : A
+Enter destination : B
+Enter weight : 7
+*****************************
+Enter source : A
+Enter destination : F
+Enter weight : 10
+*****************************
+Enter source : A
+Enter destination : E
+Enter weight : 7
+*****************************
+Enter source : E
+Enter destination : D
+Enter weight : 1
+*****************************
+Enter source : E
+Enter destination : F
+Enter weight : 4
+*****************************
+Enter source : F
+Enter destination : D
+Enter weight : 9
+*****************************
+Enter source : F
+Enter destination : B
+Enter weight : 1
+*****************************
+Enter source : B
+Enter destination : D
+Enter weight : 4
+*****************************
+Enter source : B
+Enter destination : C
+Enter weight : 8
+*****************************
+Enter source : D
+Enter destination : C
+Enter weight : 3
+*****************************
+Weight matrix : 
+ A B C D E F
+ A 0 7 0 0 7 10
+ B 7 0 8 4 0 1
+ C 0 8 0 3 0 0
+ D 0 4 3 0 1 9
+ E 7 0 0 1 0 4
+ F 10 1 0 9 4 0
+1. Prims
+2. Kruskals
+3. Exit1
+
+ Primms Algorithm 
+
+visited   distance and path status is :
+i , visited[i]     p[i]     , d[i]
+A	B	A	0	
+B	A	A	5000	
+C	A	A	5000	
+D	A	A	5000	
+E	A	A	5000	
+F	A	A	5000	
+total visited=1
+visited   distance and path status is :
+i , visited[i]     p[i]     , d[i]
+A	B	A	0	
+B	A	A	7	
+C	A	A	5000	
+D	A	A	5000	
+E	A	A	7	
+F	A	A	10	
+finding minimum cost
+for I=6mincost= 7current= 1
+current= 1  Total Visited== 2
+total visited=2
+visited   distance and path status is :
+i , visited[i]     p[i]     , d[i]
+A	B	A	0	
+B	B	A	7	
+C	A	B	8	
+D	A	B	4	
+E	A	A	7	
+F	A	B	1	
+finding minimum cost
+for I=6mincost= 1current= 5
+current= 5  Total Visited== 3
+total visited=3
+visited   distance and path status is :
+i , visited[i]     p[i]     , d[i]
+A	B	A	0	
+B	B	A	7	
+C	A	B	8	
+D	A	B	4	
+E	A	F	4	
+F	B	B	1	
+finding minimum cost
+for I=6mincost= 4current= 3
+current= 3  Total Visited== 4
+total visited=4
+visited   distance and path status is :
+i , visited[i]     p[i]     , d[i]
+A	B	A	0	
+B	B	A	7	
+C	A	D	3	
+D	B	B	4	
+E	A	D	1	
+F	B	B	1	
+finding minimum cost
+for I=6mincost= 1current= 4
+current= 4  Total Visited== 5
+total visited=5
+visited   distance and path status is :
+i , visited[i]     p[i]     , d[i]
+A	B	A	0	
+B	B	A	7	
+C	A	D	3	
+D	B	B	4	
+E	B	D	1	
+F	B	B	1	
+finding minimum cost
+for I=6mincost= 3current= 2
+current= 2  Total Visited== 6
+Minimum span tree is
+ Edge B-->A Weight= 7
+ Edge C-->D Weight= 3
+ Edge D-->B Weight= 4
+ Edge E-->D Weight= 1
+ Edge F-->B Weight= 1
+Minimum cost = 16
+After Manip visited   distance and path status is :
+i , visited[i]     p[i]     , d[i]
+A	B	A	0	
+B	B	A	7	
+C	B	D	3	
+D	B	B	4	
+E	B	D	1	
+F	B	B	1	
+1. Prims
+2. Kruskals
+3. Exit2
+
+Kruskals Algorithm 
+edge array is:
+A, B, 7
+A, F, 10
+A, E, 7
+E, D, 1
+E, F, 4
+F, D, 9
+F, B, 1
+B, D, 4
+B, C, 8
+D, C, 3
+Sorted List of edges
+E, D, 1
+F, B, 1
+D, C, 3
+E, F, 4
+B, D, 4
+A, B, 7
+A, E, 7
+B, C, 8
+F, D, 9
+A, F, 10
+edge selectedE, D, 1
+edge selectedF, B, 1
+edge selectedD, C, 3
+edge selectedE, F, 4
+edge RejectedB, D, 4
+edge selectedA, B, 7
+edge RejectedA, E, 7
+edge RejectedB, C, 8
+edge RejectedF, D, 9
+edge RejectedA, F, 10
+Krskals MST contains following edges::
+E, D, 1
+F, B, 1
+D, C, 3
+E, F, 4
+A, B, 7
+
+Total Cost of MST is 16
+1. Prims
+2. Kruskals
+3. Exit3

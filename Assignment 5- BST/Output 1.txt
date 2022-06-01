@@ -1,0 +1,175 @@
+//============================================================================
+// Name        : BST.cpp
+// Author      : Bhavana
+// Class       : SE 09
+// Roll no.    : 23107
+// Batch       : E 09
+//============================================================================
+
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+1
+Enter element to be inserted
+3
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+1
+Enter element to be inserted
+4
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+1
+Enter element to be inserted
+3
+duplicate not allowed
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+1
+Enter element to be inserted
+5
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+2
+Enter element to be inserted
+34
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+3
+34534
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+4
+Enter element to be searched
+3
+3
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+5
+34543
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+6
+Copied tree:
+34543
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+7
+Height of bst: 4
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+8
+Enter element to be deleted
+4
+3453
+-----------------------------------MENU------------------------------------ 
+ 1)Recursive Insert 
+ 2)Insert 
+ 3)Inorder traversal 
+ 4)Search 
+ 5)mirror 
+ 6)copy 
+ 7)Height 
+ 8)Delete 
+ 9)exit
+----------------------------------------------------------------------------
+9
+Program finished!!

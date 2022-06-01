@@ -1,0 +1,223 @@
+=============================================
+	 CREATING DATABASE
+=============================================
+Enter the roll no:23107
+Enter name:Bhavana
+Enter address:Nashik
+Enter div:3
+
+===============================================
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 1
+==============================================
+
+Enter the roll no:23145
+Enter name:Siddhi
+Enter address:Pune
+Enter div:4
+
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 1
+==============================================
+
+Enter the roll no:23467
+Enter name:Alok
+Enter address:Mumbai
+Enter div:8
+
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 1
+==============================================
+
+Enter the roll no:34567
+Enter name:Pranav
+Enter address:Solapur
+Enter div:3
+
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 1
+==============================================
+
+Enter the roll no:29876
+Enter name:Payal
+Enter address:Kolhapur
+Enter div:8
+
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 2
+==============================================
+
+============================================================
+ROLL NO NAME                DIV  ADDRESS   
+============================================================
+23107   Bhavana             3    Nashik    
+23145   Siddhi              4    Pune      
+23467   Alok                8    Mumbai    
+34567   Pranav              3    Solapur   
+29876   Payal               8    Kolhapur  
+===========================================================
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 3
+==============================================
+
+Enter Roll No to be searched:23107
+============================================================
+ROLL NO NAME                DIV  ADDRESS   
+============================================================
+23107   Bhavana             3    Nashik    
+=========================================================
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 4
+==============================================
+
+Enter Roll No. that should be modified:23107
+Enter New Record..
+Enter name:Manisha
+Enter address:Nashik
+Enter div:3
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 2
+==============================================
+
+============================================================
+ROLL NO NAME                DIV  ADDRESS   
+============================================================
+23107   Manisha             3    Nashik    
+23145   Siddhi              4    Pune      
+23467   Alok                8    Mumbai    
+34567   Pranav              3    Solapur   
+29876   Payal               8    Kolhapur  
+===========================================================
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 5
+==============================================
+
+Enter Roll No. to delete:23467
+
+=============================================================
+ROLL NO NAME                DIV  ADDRESS   
+=============================================================
+23467   Alok                8    Mumbai    
+=============================================================
+
+Are you sure you want to delete?
+1. Yes.
+2. No.
+Enter:1
+
+Record deleted successful!!!!
+
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 2
+==============================================
+
+============================================================
+ROLL NO NAME                DIV  ADDRESS   
+============================================================
+23107   Manisha             3    Nashik    
+23145   Siddhi              4    Pune      
+34567   Pranav              3    Solapur   
+29876   Payal               8    Kolhapur  
+===========================================================
+
+=============================================
+	 DATABASE
+=============================================
+1.Add Record
+2.Display Records
+3.Search
+4.Modify
+5.Delete
+0.Exit
+Enter: 0
+==============================================

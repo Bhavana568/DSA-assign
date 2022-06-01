@@ -1,0 +1,50 @@
+//============================================================================
+// Name        : Heap sort.cpp
+// Author      : Bhavana
+// Classs      : SE 09
+// Batch       : E 09
+// Roll no.    : 23107
+//============================================================================
+
+Enter the size of the array: 5
+
+------------------------MENU------------------------
+1) Insert element
+2) Build Heap
+3) Sorting using heap sort
+4) Exit
+------------------------------------------------------
+1
+Enter 5 elements of the array
+22
+56
+21
+9
+4
+
+------------------------MENU------------------------
+1) Insert element
+2) Build Heap
+3) Sorting using heap sort
+4) Exit
+------------------------------------------------------
+2
+Heap building in progress!
+56 22 21 9 4 
+------------------------MENU------------------------
+1) Insert element
+2) Build Heap
+3) Sorting using heap sort
+4) Exit
+------------------------------------------------------
+3
+Sorted array is: 
+4 9 21 22 56 
+------------------------MENU------------------------
+1) Insert element
+2) Build Heap
+3) Sorting using heap sort
+4) Exit
+------------------------------------------------------
+4
+Program finished!

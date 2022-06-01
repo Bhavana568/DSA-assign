@@ -1,0 +1,503 @@
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+10
+Invalid entry!
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+1
+
+	 Enter no. of students you want to enter (between 1 to 15)
+17
+
+	 Invalid size. Please re-enter correct value : 
+	 Enter no. of students you want to enter (between 1 to 15)
+5
+Enter details of student 1
+enter name
+@@@
+Invalid name!Please try again!!
+Bhavana
+Enter roll number
+233333
+Invalid roll no.(Enter roll no. from 23101-23181)
+23111
+Details of Date of birth
+Enter date
+222
+Date is invalid!! Please re-enter date betwee 1-31.
+Enter date
+2
+Date is valid!!
+Enter month
+333
+Month is not valid.Please re-enter month between 1-12.
+Enter month
+3
+Valid month!
+Enter year
+20000
+Year is invalid.Please re-enter year between 1900-9999.
+Enter year
+2001
+Year is valid
+Enter marks of 5 subjects : 
+222
+Marks should be less than 100
+-98
+Marks should be positive
+24
+45
+45
+45
+45
+Enter details of student 2
+enter name
+234
+Invalid name please try again
+Akash
+Enter roll number
+23101
+Details of Date of birth
+Enter date
+22
+Date is valid!!
+Enter month
+3
+Valid month!
+Enter year
+2001
+Year is valid
+Enter marks of 5 subjects : 
+23
+34
+34
+32
+32
+Enter details of student 3
+enter name
+Wicky
+Enter roll number
+-23181
+roll number is negative, please re-enter the number
+23181
+Details of Date of birth
+Enter date
+7
+Date is valid!!
+Enter month
+8
+Valid month!
+Enter year
+2001
+Year is valid
+Enter marks of 5 subjects : 
+45
+45
+56
+67
+56
+Enter details of student 4
+enter name
+Divya
+Enter roll number
+23117
+Details of Date of birth
+Enter date
+4
+Date is valid!!
+Enter month
+6
+Valid month!
+Enter year
+2001
+Year is valid
+Enter marks of 5 subjects : 
+67
+78
+78
+78
+78
+Enter details of student 5
+enter name
+Rashi
+Enter roll number
+23181
+This number is already entered please try again
+23166
+Details of Date of birth
+Enter date
+22
+Date is valid!!
+Enter month
+8
+Valid month!
+Enter year
+2002
+Year is valid
+Enter marks of 5 subjects : 
+45
+67
+78
+67
+78
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+7
+====================================================================================================================
+Sr. No.		Roll no		Name		DOB		Total		Percentage
+====================================================================================================================
+1		23111		Bhavana		2-3-2001		204		40.8
+2		23101		Akash		22-3-2001		155		31
+3		23181		Wicky		7-8-2001		269		53.8
+4		23117		Divya		4-6-2001		379		75.8
+5		23166		Rashi		22-8-2002		335		67
+====================================================================================================================
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+2
+Pass no.		list		No. of comparisons		No. of swap
+====================================================================================================================
+1		23111 23101 23181 23117 23166 			4			3
+2		23101 23111 23117 23166 23181 			3			0
+3		23101 23111 23117 23166 23181 			2			0
+4		23101 23111 23117 23166 23181 			1			0
+5		23101 23111 23117 23166 23181 			0			0
+====================================================================================================================
+DATA SORTED!!
+====================================================================================================================
+****BUBBLE SORT ANALYSIS**** 
+====================================================================================================================
+Average case
+====================================================================================================================
+Sr. No.		Roll no		Name		DOB		Total		Percentage
+====================================================================================================================
+1		23101		Akash		22-3-2001		155		31
+2		23111		Bhavana		2-3-2001		204		40.8
+3		23117		Divya		4-6-2001		379		75.8
+4		23166		Rashi		22-8-2002		335		67
+5		23181		Wicky		7-8-2001		269		53.8
+====================================================================================================================
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+3
+Pass no.	list		                            No. of comparisons	   No. of swap
+====================================================================================================================
+1		Akash Bhavana Divya Rashi Wicky 			1		0
+2		Akash Bhavana Divya Rashi Wicky 			1		0
+3		Akash Bhavana Divya Rashi Wicky 			1		0
+4		Akash Bhavana Divya Rashi Wicky 			1		0
+====================================================================================================================
+Sr. No.		Roll no		Name		DOB		      Total		Percentage
+====================================================================================================================
+1		23101		Akash		22-3-2001		155		31
+2		23111		Bhavana		2-3-2001		204		40.8
+3		23117		Divya		4-6-2001		379		75.8
+4		23166		Rashi		22-8-2002		335		67
+5		23181		Wicky		7-8-2001		269		53.8
+====================================================================================================================
+====================================================================================================================
+**** INSERTION SORT ANALYSIS**** 
+====================================================================================================================
+
+	 Input size          : 5
+	 Total comparisons   : 4
+	 Case   : 	Average case 
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+4
+
+
+Pass: 1| Comparisons: 7
+Partition 1: 53.8|40.8|75.8|67|
+
+Partition 2: 
+
+
+Pass: 2| Comparisons: 5
+Partition 1: 75.8|67|
+
+Partition 2: 
+
+
+Pass: 3| Comparisons: 3
+Partition 1: 
+
+Partition 2: 75.8|
+====================================================================================================================
+**** QUICK SORT ANALYSIS**** 
+====================================================================================================================
+Average case
+====================================================================================================================
+Sr. No.		Roll no		Name		 DOB		       Total		Percentage
+====================================================================================================================
+1		23117		Divya		4-6-2001		379		75.8
+2		23166		Rashi		22-8-2002		335		67
+3		23181		Wicky		7-8-2001		269		53.8
+4		23111		Bhavana		2-3-2001		204		40.8
+5		23101		Akash		22-3-2001		155		31
+====================================================================================================================
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+5
+Enter the CGPA of the student to be searched
+67
+====================================================================================================================
+Sr. No.		Roll no		Name		DOB		       Total		Percentage
+====================================================================================================================
+1		23117		Divya		4-6-2001		379		75.8
+2		23166		Rashi		22-8-2002		335		67
+3		23181		Wicky		7-8-2001		269		53.8
+4		23111		Bhavana		2-3-2001		204		40.8
+5		23101		Akash		22-3-2001		155		31
+====================================================================================================================
+Location	 key		 element
+0		67		75.8		
+Search is unsuccessful.
+1		67		67		
+Element found at position 1
+====================================================================================================================
+*** LINEAR SEARCH ANALYSIS**** 
+====================================================================================================================
+
+	 Input size     : 5
+	 Case   : 	Average case / Worst case
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+6
+Pass no.	list		                            No. of comparisons	   No. of swap
+====================================================================================================================
+1		Divya Rashi Wicky Bhavana Akash 			1		0
+2		Divya Rashi Wicky Bhavana Akash 			1		0
+3		Bhavana Divya Rashi Wicky Akash 			4		3
+4		Akash Bhavana Divya Rashi Wicky 			5		4
+====================================================================================================================
+Sr. No.		Roll no		Name		DOB		Total		Percentage
+====================================================================================================================
+1		23101		Akash		22-3-2001		155		31
+2		23111		Bhavana		2-3-2001		204		40.8
+3		23117		Divya		4-6-2001		379		75.8
+4		23166		Rashi		22-8-2002		335		67
+5		23181		Wicky		7-8-2001		269		53.8
+====================================================================================================================
+====================================================================================================================
+**** INSERTION SORT ANALYSIS**** 
+====================================================================================================================
+
+	 Input size          : 5
+	 Total comparisons   : 4
+	 Case   : 	Average case 
+====================================================================================================================
+Enter the name of the student to be searched
+33
+====================================================================================================================
+PASS		MID		LOW		HIGH		KEY		Ele[mid]
+====================================================================================================================
+
+2		2		0		4		33		Divya
+====================================================================================================================
+*** BINARY SEARCH ANALYSIS**** 
+====================================================================================================================
+33 Element not Found!!
+====================================================================================================================
+
+3		0		0		1		33		Akash
+====================================================================================================================
+*** BINARY SEARCH ANALYSIS**** 
+====================================================================================================================
+33 Element not Found!!
+====================================================================================================================
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+5
+Enter the CGPA of the student to be searched
+33
+====================================================================================================================
+Sr. No.		Roll no		Name		DOB		      Total		Percentage
+====================================================================================================================
+1		23101		Akash		22-3-2001		155		31
+2		23111		Bhavana		2-3-2001		204		40.8
+3		23117		Divya		4-6-2001		379		75.8
+4		23166		Rashi		22-8-2002		335		67
+5		23181		Wicky		7-8-2001		269		53.8
+====================================================================================================================
+Location	 key		 element
+0		33		31		
+Search is unsuccessful.
+1		33		40.8		
+Search is unsuccessful.
+2		33		75.8		
+Search is unsuccessful.
+3		33		67		
+Search is unsuccessful.
+4		33		53.8		
+Search is unsuccessful.
+====================================================================================================================
+*** LINEAR SEARCH ANALYSIS**** 
+====================================================================================================================
+
+	 Input size     : 5
+	 Case   : 	Average case / Worst case
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+6  
+Pass no.	list		                            No. of comparisons	    No. of swap
+====================================================================================================================
+1		Akash Bhavana Divya Rashi Wicky 			1		0
+2		Akash Bhavana Divya Rashi Wicky 			1		0
+3		Akash Bhavana Divya Rashi Wicky 			1		0
+4		Akash Bhavana Divya Rashi Wicky 			1		0
+====================================================================================================================
+Sr. No.		Roll no		Name		DOB		       Total		Percentage
+====================================================================================================================
+1		23101		Akash		22-3-2001		155		31
+2		23111		Bhavana		2-3-2001		204		40.8
+3		23117		Divya		4-6-2001		379		75.8
+4		23166		Rashi		22-8-2002		335		67
+5		23181		Wicky		7-8-2001		269		53.8
+====================================================================================================================
+====================================================================================================================
+**** INSERTION SORT ANALYSIS**** 
+====================================================================================================================
+
+	 Input size          : 5
+	 Total comparisons   : 4
+	 Case   : 	Average case 
+====================================================================================================================
+Enter the name of the student to be searched
+Bhavana
+====================================================================================================================
+PASS		MID		LOW		HIGH		KEY		Ele[mid]
+====================================================================================================================
+
+2		2		0		4		Bhavana		Divya
+====================================================================================================================
+*** BINARY SEARCH ANALYSIS**** 
+====================================================================================================================
+Bhavana Element not Found!!
+====================================================================================================================
+
+3		0		0		1		Bhavana		Akash
+====================================================================================================================
+*** BINARY SEARCH ANALYSIS**** 
+====================================================================================================================
+Bhavana Element not Found!!
+====================================================================================================================
+
+4		1		1		1		Bhavana		Bhavana
+====================================================================================================================
+*** BINARY SEARCH ANALYSIS**** 
+
+Average case of Algorithm 
+====================================================================================================================
+Bhavana Found at : 1
+
+Name : Bhavana
+Roll No. : 23111
+Percentage : 40.8
+
+****AVAILABLE OPERATIONS FOR ARRAY ASSIGNMENT 1**** 
+====================================================================================================================
+1. Input : 
+2. Bubble Sort for Roll no : 
+3. Insertion Sort for Names : 
+4. Quick Sort for CGPA: 
+5. Linear Search to search Student by CGPA: 
+6. Binary search to search Student by  Name: 
+7. Display student database: 
+8. Exit
+8
+Are you sure you want to exit 
+	 1.Yes 
+	 2.No
+1
+PROGRAM FINISHED!!

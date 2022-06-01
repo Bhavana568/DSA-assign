@@ -1,0 +1,274 @@
+//============================================================================
+// Name        : Assignment_4.cpp
+// Author      : Bhavana
+// Class       : SE 09
+// Roll no.    : 23107
+// Batch       : E 09
+//============================================================================
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+1
+Enter the postfix expression:
+abc*-d+
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+2
+abc*-d+
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+3
+a-b*c+d
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+4
++-a*bcd
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+5
+abc*-d+
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+6
+a-b*c+d
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+7
++-a*bcd
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+1
+Enter the postfix expression:
+abc^^
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+2
+abc^^
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+3
+a^b^c
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+4
+^a^bc
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+5
+abc^^
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+6
+a^b^c
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+7
+^a^bc
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+1
+Enter the postfix expression:
+abc*+
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+2
+abc*+
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+3
+a+b*c
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+4
++a*bc
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+5
+abc*+
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+6
+a+b*c
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+7
++a*bc
+-------------------------------------MENU----------------------------------------
+1)Input postfix expression
+2)recursive postorder
+3)recursive inorder
+4)recusive preorder
+5)postorder
+6)inorder
+7)preorder
+8) Exit
+----------------------------------------------------------------------------------
+8
+Program finished!!

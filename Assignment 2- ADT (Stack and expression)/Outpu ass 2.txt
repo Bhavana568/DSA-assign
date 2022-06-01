@@ -1,0 +1,103 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Name: Bhavana Bafna
+Roll no.:23107
+Class : SE 09
+Batch : E 09
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------MENU----------------------------------------
+1. Infix to Postfix conversion
+2. Infix to Prefix conversion 
+3. Evaluation of postfix expression
+4. Evaluation of prefix expression 
+5. Exit 
+-------------------------------------------------------------------------------
+1
+Enter an infix expression
+a+b*c
+
+Postfix expression is ::
+
+-------------------------------------------------------------------------------
+Infix		Current		PostFix		Stack
+-----------------------------------------------------------------------------
+a+b*c	         a	          a	
+a+b*c	         +	          a	          +
+a+b*c	         b	          ab	          +
+a+b*c	         *	          ab+	          *
+a+b*c	         c	          ab+c	          *
+a+b*c	         abc*+	
+-------------------------------------------------------------------------------
+abc*+
+-----------------------------------MENU----------------------------------------
+1. Infix to Postfix conversion
+2. Infix to Prefix conversion 
+3. Evaluation of postfix expression
+4. Evaluation of prefix expression 
+5. Exit 
+-------------------------------------------------------------------------------
+2
+Enter an infix expression
+a+b^c^d
+
+Prefix expression is ::
+-------------------------------------------------------------------------------
+Infix		Current		PostFix		Stack
+-------------------------------------------------------------------------------
+a+b^c^d	         d	         d	
+a+b^c^d	         ^	         d	         ^
+a+b^c^d	         c	         dc	         ^
+a+b^c^d	         ^	         dc^	         ^
+a+b^c^d	         b	         dc^b	         ^ Stack is EMPTY!
+a+b^c^d	         +	         dc^b^	         +
+a+b^c^d	         a	         dc^b^a	         +
+a+b^c^d		 ab+c*
+-------------------------------------------------------------------------------
++a^b^cd
+
+-----------------------------------MENU----------------------------------------
+1. Infix to Postfix conversion
+2. Infix to Prefix conversion 
+3. Evaluation of postfix expression
+4. Evaluation of prefix expression 
+5. Exit 
+-------------------------------------------------------------------------------
+3
+EVALUATION of expression for postfix  ::
+Enter Post fix expression::
+ab+c*d^
+Value for the variable : a::
+1
+Value for the variable : b::
+2
+Value for the variable : c::
+3
+Value for the variable : d::
+4
+6561
+-----------------------------------MENU----------------------------------------
+1. Infix to Postfix conversion
+2. Infix to Prefix conversion 
+3. Evaluation of postfix expression
+4. Evaluation of prefix expression 
+5. Exit 
+-------------------------------------------------------------------------------
+4
+EVALUATION expression for prefix   ::
+Enter Pre fix expression::
+*c+ab
+Value for the variable : b::
+1
+Value for the variable : a::
+12
+Value for the variable : c::
+2
+26
+-----------------------------------MENU----------------------------------------
+1. Infix to Postfix conversion
+2. Infix to Prefix conversion 
+3. Evaluation of postfix expression
+4. Evaluation of prefix expression 
+5. Exit 
+-------------------------------------------------------------------------------
+5
+

@@ -1,0 +1,183 @@
+Enter number of landmarks : 6
+Enter number of links : 10
+
+=========================================
+
+Enter landmark number 1 : CITY01
+Enter landmark number 2 : CITY02
+Enter landmark number 3 : CITY03
+Enter landmark number 4 : CITY04
+Enter landmark number 5 : CITY05
+Enter landmark number 6 : CITY06
+
+=========================================
+
+Enter source landmark : CITY01
+Enter target landmark : CITY02
+Enter distance : 7
+
+=========================================
+
+Enter source landmark : CITY01
+Enter target landmark : CITY05
+Enter distance : 7
+
+=========================================
+
+Enter source landmark : CITY01
+Enter target landmark : CITY06
+Enter distance : 10
+
+=========================================
+
+Enter source landmark : CITY02
+Enter target landmark : CITY04
+Enter distance : 4
+
+=========================================
+
+Enter source landmark : CITY02
+Enter target landmark : CITY03
+Enter distance : 8
+
+=========================================
+
+Enter source landmark : CITY03
+Enter target landmark : CITY04
+Enter distance : 3
+
+=========================================
+
+Enter source landmark : CITY04
+Enter target landmark : CITY05
+Enter distance : 1
+
+=========================================
+
+Enter source landmark : CITY04
+Enter target landmark : CITY06
+Enter distance : 10
+
+=========================================
+
+Enter source landmark : CITY02
+Enter target landmark : CITY06
+Enter distance : 2
+
+=========================================
+
+Enter source landmark : CITY05
+Enter target landmark : CITY06
+Enter distance : 4
+
+=========================================
+
+Adjacency Matrix :- 
+		CITY01	CITY02	CITY03	CITY04	CITY05	CITY06
+	CITY01	0	7	0	0	7	10
+	CITY02	7	0	8	4	0	2
+	CITY03	0	8	0	3	0	0
+	CITY04	0	4	3	0	1	10
+	CITY05	7	0	0	1	0	4
+	CITY06	10	2	0	10	4	0
+
+Dijkistras Algorithm
+
+Enter source landmark : CITY01
+Shortest path = 0
+
+===========================================
+
+
+Visited distance and path status is : 
+
+===========================================
+i	visited[i]	p[i]	d[i]
+CITY01	CITY02		CITY01	0	
+CITY02	CITY01		CITY01	7	
+CITY03	CITY01		CITY01	32767	
+CITY04	CITY01		CITY01	32767	
+CITY05	CITY01		CITY01	7	
+CITY06	CITY01		CITY01	10	
+
+===========================================
+
+
+Selected Vertex is : 1
+Minimum is : 7
+Visited distance and path status is : 
+i	visited[i]	p[i]	d[i]
+CITY01	CITY02		CITY01	0	
+CITY02	CITY02		CITY01	7	
+CITY03	CITY01		CITY02	15	
+CITY04	CITY01		CITY02	11	
+CITY05	CITY01		CITY01	7	
+CITY06	CITY01		CITY02	9	
+
+===========================================
+
+
+Selected Vertex is : 4
+Minimum is : 7
+Visited distance and path status is : 
+i	visited[i]	p[i]	d[i]
+CITY01	CITY02		CITY01	0	
+CITY02	CITY02		CITY01	7	
+CITY03	CITY01		CITY02	15	
+CITY04	CITY01		CITY05	8	
+CITY05	CITY02		CITY01	7	
+CITY06	CITY01		CITY02	9	
+
+===========================================
+
+
+Selected Vertex is : 3
+Minimum is : 8
+Visited distance and path status is : 
+i	visited[i]	p[i]	d[i]
+CITY01	CITY02		CITY01	0	
+CITY02	CITY02		CITY01	7	
+CITY03	CITY01		CITY04	11	
+CITY04	CITY02		CITY05	8	
+CITY05	CITY02		CITY01	7	
+CITY06	CITY01		CITY02	9	
+
+===========================================
+
+
+Selected Vertex is : 5
+Minimum is : 9
+Visited distance and path status is : 
+i	visited[i]	p[i]	d[i]
+CITY01	CITY02		CITY01	0	
+CITY02	CITY02		CITY01	7	
+CITY03	CITY01		CITY04	11	
+CITY04	CITY02		CITY05	8	
+CITY05	CITY02		CITY01	7	
+CITY06	CITY02		CITY02	9	
+
+===========================================
+
+
+Selected Vertex is : 2
+Minimum is : 11
+Visited distance and path status is : 
+i	visited[i]	p[i]	d[i]
+CITY01	CITY02		CITY01	0	
+CITY02	CITY02		CITY01	7	
+CITY03	CITY02		CITY04	11	
+CITY04	CITY02		CITY05	8	
+CITY05	CITY02		CITY01	7	
+CITY06	CITY02		CITY02	9	
+
+===========================================
+
+
+Shortest Path from Source to all destinations
+Source is -->0
+
+landmark = CITY02, Distance = 7 Path = CITY02 <- CITY01
+landmark = CITY03, Distance = 11 Path = CITY03 <- CITY04 <- CITY05 <- CITY01
+landmark = CITY04, Distance = 8 Path = CITY04 <- CITY05 <- CITY01
+landmark = CITY05, Distance = 7 Path = CITY05 <- CITY01
+landmark = CITY06, Distance = 9 Path = CITY06 <- CITY02 <- CITY01

@@ -1,0 +1,137 @@
+//============================================================================
+// Name        : CQ_queue.cpp
+// Author      : Bhavana
+// Class       : SE 09
+// Batch       : E 09
+// Roll no.    : 23107
+//============================================================================
+PROBLEM STATEMENT:
+Implement	Circular	Queue	using Array as linear list .	Perform
+following operations on it.
+a.	Insertion (Enqueue)
+b.	Deletion (Dequeue)
+c.	Display
+------------------------------------------------------------------------------------------------------------------------------
+OUTPUT:
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 1
+Name: Bhavana
+Age: 23
+
+Bhavana|
+
+front: 0| rear: 0
+
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 1
+Name: B
+Age: 78
+
+Bhavana|B|
+
+front: 0| rear: 1
+
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 1
+Name: BAFNA
+Age: 34
+
+Bhavana|B|BAFNA|
+
+front: 0| rear: 2
+
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 1
+Name: JON
+Age: 23
+
+Queue is Full
+Bhavana|B|BAFNA|
+
+front: 0| rear: 2
+
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 2
+
+B|BAFNA|
+
+front: 1| rear: 2
+
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 2
+
+BAFNA|
+
+front: 2| rear: 2
+
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 2
+
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 2
+Queue is Empty
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 3
+
+Not Full
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 4
+
+Queue is Empty
+<***Menu***>
+1. Insert
+2. Remove
+3. Full
+4. Empty
+5. Exit
+Enter Your Choice: 5
